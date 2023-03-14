@@ -1,13 +1,13 @@
 {% set name = "de-pegel-online" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/de-pegel-online-{{ version }}.tar.gz
-  sha256: e873ac7051c1bdc72d11f20f447c57bcb4ab222a419b40e3e0ce0d2f7b64736b
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 4ccde42f8287156563302fe13a0cbdb6bb99081880e2c30515d6e865157827d1
 
 build:
   noarch: python
@@ -36,7 +36,7 @@ about:
   home: https://github.com/bundesAPI/pegel-online-api
   summary: 'Wasserstraßen- und Schifffahrtsverwaltung: Pegel-Online API'
   license: Apache-2.0
-  license_file: 
+  license_file:
     - LICENSE
 
 extra:

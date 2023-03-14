@@ -1,11 +1,11 @@
-About de-pegel-online
-=====================
+About de-pegel-online-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/de-pegel-online-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/bundesAPI/pegel-online-api
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/de-pegel-online-feedstock/blob/main/LICENSE.txt)
 
 Summary: Wasserstraßen- und Schifffahrtsverwaltung: Pegel-Online API
 
