@@ -32,7 +32,9 @@ tests:
       imports:
         - deutschland.pegel_online
       pip_check: true
-      python_version: ${{ python_min }}
+      python_version:
+        - ${{ python_min }}
+        - "*"
 
 about:
   summary: "Wasserstraßen- und Schifffahrtsverwaltung: Pegel-Online API"
